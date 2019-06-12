@@ -1,10 +1,10 @@
 #write your code here
 
-def countdown
-  countdown = 10
-  while countdown >= 0
-  puts "#{countdown} second(s)!".upcase
-  countdown -= 1 
+def countdown(countdown_output)
+  countdown_output = 10
+  while countdown_output >= 0
+  puts "#{countdown_output} second(s)!".upcase
+  countdown_output -= 1 
 end
 end
 
